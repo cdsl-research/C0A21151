@@ -572,7 +572,7 @@ def http_log(user_name, host_name):
     if date_lis == []:
         print("リストが空です")
         shutdown_frg = 1
-        return shutdown_frg, 0
+        return shutdown_frg, 30
     if len(date_lis) == 1:
         print("アクセス日が1日のみです")
         shutdown_frg = 0
